@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section id="content-cipher" class="content">
+    <div id="root">
+      <h1>CC Conociendo al paciente CC</h1>
+      <header>
+        <p><i>¡Bienvenida a tu espacio para decir cuanto quieras sin culpas al paciente!</i></p>
+      </header>
+      <h3>Que quieres decir:</h3>
+      <textarea id="mensaje" class="box-msg-style" placeholder="Ingrese su mensaje:"></textarea>
+      <h3>DESPLAZAMIENTO:</h3>
+      <p><input type="number" class="n_offset_style" id="desplazamiento" size="3" /></p>
+      <button id="cifrar" class="btn-code">Cifrar</button>
+      <button id="descifrar" class="btn-code">Descifrar</button>
+      <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+      <textarea id="mensaje2" class="box-msg-style"></textarea>
+    </div>
+    <button onclick="location.reload();" class="btn_reload">Refrescar</button>
+  </section>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/grupo-personal-medico-que-lleva-iconos-relacionados-salud_53876-43071.jpg?w=2000");
+    background-size: contain;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #008F99;
+    font-weight: 500;
+}
+
+.content-header p {
+    text-align: center;
+    font-family: arial;
+    color: #666;
+}
+
+.content {
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #008F99;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 7px 1px #333;
+}
+
+
+.n_offset_style {
+    width: 40px;
+}
+
+.label {
+    font-size: 16px;
+    font-family: arial;
+    color: #666;
+}
+
+.indication {
+    font-size: 14px;
+}
+
+
+.msg-style {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.msg-style p {
+    font-family: arial;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.box-msg-style {
+    width: 100%;
+    height: 130px;
+    resize: none;
+    outline: 0px;
+}
+
+.btn-code {
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: #008F99;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 3px 3px 7px 1px #898989;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-code:hover {
+    background-color: #FFC107;
+}
+
+
+
+.btn_reload {
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: #008F99;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 3px 3px 7px 1px #898989;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn_reload:hover {
+    background-color: #FFC107;
+}
+
+
+
+
+
